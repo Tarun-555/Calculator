@@ -10,7 +10,8 @@ class App extends Component{
 
   buttonPressed = buttonName => {
     if(buttonName === "="){
-      this.calculate();
+      this.calcu
+      late();
     }
     else if(buttonName === "c"){
       this.reset();
